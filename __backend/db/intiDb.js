@@ -1,7 +1,8 @@
 
 const mongoose = require('mongoose')
 
-const DB = process.env.MONGO_URI;
+
+const DB = 'mongodb+srv://baishyahimangshu499:himangshu_123@cluster0.1col81h.mongodb.net/';
 
 mongoose.connect( DB, {
     useNewUrlParser:true,
