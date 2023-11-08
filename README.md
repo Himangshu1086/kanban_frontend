@@ -3,8 +3,8 @@
 
 ## Home Page 
 
-![image info](home.png)
+![home page](https://github.com/Himangshu1086/kanban_frontend/blob/master/home.png)
 
 ## Board Item
 
-![image info](boardItem.png)
+![image info](https://github.com/Himangshu1086/kanban_frontend/blob/master/boardItem.png)
