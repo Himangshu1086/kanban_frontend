@@ -29,8 +29,6 @@ export default function Home({boards}) {
     const response = await res.json();
     if(response.error)
       console.log(response.error)
-    else 
-       alert("succesfully added")
     if (res.status < 300) {
         refreshData();
       }

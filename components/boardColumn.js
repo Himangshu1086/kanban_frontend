@@ -43,7 +43,6 @@ export default function BoardColumn({data}) {
     });
     const response = await res.json();
     if (response.error) console.log(response.error);
-    else alert("succesfully deleted");
     if (res.status < 300) {
       refreshData();
     }
@@ -70,8 +69,6 @@ export default function BoardColumn({data}) {
     const response = await res.json();
     if(response.error)
       console.log(response.error)
-    else 
-       alert("succesfully added")
     if (res.status < 300) {
         refreshData();
         getItems()
@@ -121,9 +118,6 @@ export default function BoardColumn({data}) {
     }
   }
 
-
-
-  console.log(items)
 
   if(loading)
   return <></>

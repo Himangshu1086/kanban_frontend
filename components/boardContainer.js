@@ -45,7 +45,6 @@ export default function BoardContainer({ board }) {
     });
     const response = await res.json();
     if (response.error) console.log(response.error);
-    else alert("succesfully deleted");
     if (res.status < 300) {
       refreshData();
     }
