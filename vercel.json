@@ -1,7 +1,0 @@
-{
-    "rewrites": [
-      { "src": "/api/.*", "dest": "/__backend/server.js" },
-      { "handle": "filesystem" },
-      { "src": "/(.*)", "dest": "/" }
-    ]
-  }
